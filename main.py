@@ -16,9 +16,9 @@ def create_magic_packet(macaddress: str):
     payload = bytes.fromhex(payload)
     return payload
 
-client = Client('AC542f3a28d53f0d826f21ef0b1030193f', '849df89b9112e53e22db833bc1072c20')
+client = Client('', '')
 miner_address = "0x1cF084aB43De754c6405442F8eAcC872948B9A01"
-mac = "24:4b:Fe:58:9e:8a"
+mac = ""
 ip = "255.255.255.255"
 port = 9
 
